@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-09-07T02:37:25.850418" rpa="false" schemaversion="5">
+<suite id="s1" name="RobotFramework" source="C:\Users\moumitajoardar\PycharmProjects\RobotFramework">
+<suite id="s1-s1" name="Tests" source="C:\Users\moumitajoardar\PycharmProjects\RobotFramework\tests">
+<suite id="s1-s1-s1" name="testDemo1" source="C:\Users\moumitajoardar\PycharmProjects\RobotFramework\tests\testDemo1.robot">
+<test id="s1-s1-s1-t1" name="Validate UnSuccessful Login" line="7">
+<kw name="open the browser with the Mortgage payment url">
+<kw name="Create Webdriver">
+<msg time="2024-09-07T02:37:25.913589" level="FAIL">No keyword with name 'Create Webdriver' found.</msg>
+<arg>Chrome executable_path=/Users/moumitajoardar/Downloads/chromedriver-win64/chromedriver-win64/chromedriver.exe</arg>
+<status status="FAIL" start="2024-09-07T02:37:25.913589" elapsed="0.000000">No keyword with name 'Create Webdriver' found.</status>
+</kw>
+<kw name="Go To">
+<arg>https://rahulshettyacademy.com/loginpagePractise/</arg>
+<status status="NOT RUN" start="2024-09-07T02:37:25.913589" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-09-07T02:37:25.913589" elapsed="0.000000">No keyword with name 'Create Webdriver' found.</status>
+</kw>
+<status status="FAIL" start="2024-09-07T02:37:25.913589" elapsed="0.000000">No keyword with name 'Create Webdriver' found.</status>
+</test>
+<status status="FAIL" start="2024-09-07T02:37:25.913589" elapsed="0.000000"/>
+</suite>
+<status status="FAIL" start="2024-09-07T02:37:25.897925" elapsed="0.015664"/>
+</suite>
+<status status="FAIL" start="2024-09-07T02:37:25.866163" elapsed="0.047426"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="RobotFramework">RobotFramework</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Tests">RobotFramework.Tests</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1-s1" name="testDemo1">RobotFramework.Tests.testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
